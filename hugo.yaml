@@ -46,6 +46,10 @@ params:
   env: production
   assets:
     theme_color: "#b401c4"
+    favicon: favicon.svg
+    favicon16x16: favicon-16x16.png
+    favicon32x32: favicon-32x32.png
+    apple_touch_icon: apple-touch-icon.png
   description: 光のメッセージ
   defaultTheme: light
   disableThemeToggle: true
@@ -69,7 +73,7 @@ params:
     threshold: 0.3
     minMatchCharLength: 1
     keys: [title, content, summary]
-  DateFormat: "January 2, 2006"
+  DateFormat: "2006年1月2日"
 
 menu:
   main:
