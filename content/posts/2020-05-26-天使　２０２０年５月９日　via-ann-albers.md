@@ -4,6 +4,10 @@ date: '2020-05-26T23:11:44Z'
 url: /天使　２０２０年５月９日　via-ann-albers/
 categories:
 - 天使
+aliases:
+- /tag/天使　２０２０年５月９日　via-ann-albers/
+lastmod: '2020-09-13T11:44:02Z'
+description: 「いつになったらいつもの生活に戻れるのだろうか？」と皆さんが言うのが聞こえます。無理もありません。大勢の皆さんにとって、この数カ月間は人生を変えるようなものになりましたから。
 cover:
   image: /uploads/2020/05/Screen-Shot-2020-05-27-at-01.07.19.png
 ---

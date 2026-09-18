@@ -24,6 +24,13 @@ taxonomies:
 outputs:
   home: [HTML, RSS, JSON]   # JSON feeds the search page
 
+# Keep the WordPress feed URL (/feed/) so existing RSS subscribers are not lost.
+outputFormats:
+  RSS:
+    baseName: index
+    path: feed
+    mediaType: application/rss+xml
+
 minify:
   disableXML: true
 
@@ -37,6 +44,8 @@ markup:
 
 params:
   env: production
+  assets:
+    theme_color: "#b401c4"
   description: 光のメッセージ
   defaultTheme: light
   disableThemeToggle: true

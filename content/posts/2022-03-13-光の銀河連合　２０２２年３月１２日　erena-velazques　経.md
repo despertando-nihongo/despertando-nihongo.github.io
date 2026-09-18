@@ -4,6 +4,10 @@ date: '2022-03-13T14:47:26Z'
 url: /光の銀河連合　２０２２年３月１２日　erena-velazques　経/
 categories:
 - 光のメッセージ
+aliases:
+- /tag/光の銀河連合　２０２２年３月１２日　erena-velazques　経/
+lastmod: '2022-03-29T11:17:27Z'
+description: Galactic Federation of Light via Erena Velazques March 12 2022
 cover:
   image: /uploads/2022/03/Screenshot-2022-03-13-at-15.34.50.png
 ---

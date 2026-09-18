@@ -2,7 +2,12 @@
 <header class="header">
     <nav class="header-nav">
         <div class="logo">
-            <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ site.Title }} (Alt + H)">{{ site.Title }}</a>
+            {{- /* the site title is the page's h1 on the home page only */ -}}
+            {{- if .IsHome }}
+            <h1 class="site-title"><a href="{{ "" | absLangURL }}" accesskey="h" title="{{ site.Title }} (Alt + H)">{{ site.Title }}</a></h1>
+            {{- else }}
+            <p class="site-title"><a href="{{ "" | absLangURL }}" accesskey="h" title="{{ site.Title }} (Alt + H)">{{ site.Title }}</a></p>
+            {{- end }}
             {{- with site.Params.description }}<span class="tagline">{{ . }}</span>{{ end }}
         </div>
         {{- $currentPage := . }}

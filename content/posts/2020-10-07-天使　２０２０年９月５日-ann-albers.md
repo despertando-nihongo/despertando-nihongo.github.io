@@ -4,6 +4,9 @@ date: '2020-10-07T16:06:06Z'
 url: /天使　２０２０年９月５日-ann-albers/
 categories:
 - 天使
+aliases:
+- /tag/天使　２０２０年９月５日-ann-albers/
+description: 友の皆さん、私たちは皆さんが大好きです。
 cover:
   image: /uploads/2020/10/Screen-Shot-2020-10-07-at-17.49.20.png
 ---

@@ -64,6 +64,8 @@ hugo server
 
 ## ドメインの切り替え（後で）
 
+詳しい手順と SEO チェックリストは [LAUNCH.md](LAUNCH.md) を参照。
+
 1. リポジトリの Settings → Pages → Custom domain に `www.despertando-nihongo.com` を設定
 2. Infomaniak の DNS で `www` を CNAME `despertando-nihongo.github.io` に、`@` を GitHub Pages の A レコードに向ける
 3. `hugo.yaml` の `baseURL` を `https://www.despertando-nihongo.com/` に変更

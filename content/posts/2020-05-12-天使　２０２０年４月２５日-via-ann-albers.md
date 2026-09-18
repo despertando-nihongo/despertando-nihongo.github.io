@@ -4,6 +4,10 @@ date: '2020-05-12T09:55:06Z'
 url: /天使　２０２０年４月２５日-via-ann-albers/
 categories:
 - 天使
+aliases:
+- /tag/天使　２０２０年４月２５日-via-ann-albers/
+lastmod: '2020-05-12T09:58:38Z'
+description: 友の皆さん、私たちは皆さんをとても愛しています。 大勢の皆さんが「これはいつ終わるのでしょうか？」と 尋ねますが、「これが終わったら 、私は一体どんな自分になるのでしょうか？ どれだけ向上しているでしょうか？
 cover:
   image: /uploads/2020/05/Screen-Shot-2020-05-12-at-11.50.08.png
 ---

@@ -4,6 +4,10 @@ date: '2020-04-16T13:25:22Z'
 url: /天使　２０２０年３月２１日　angels-via-ann-albers/
 categories:
 - 天使
+aliases:
+- /tag/天使　２０２０年３月２１日　angels-via-ann-albers/
+lastmod: '2020-04-28T14:19:34Z'
+description: 親愛なる友の皆さん、皆さんをとても愛しています。 お互いの繋がり及び源との繋がりを忘れたしまった種族について少しお話しいたしましょう。彼らは優秀で、知的であり、科学においても、かれらの社会の中でもとても進歩していました。
 cover:
   image: /uploads/2020/04/Screen-Shot-2020-04-16-at-15.14.58.png
 ---

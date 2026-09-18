@@ -1,0 +1,10 @@
+{{- if in site.BaseURL "github.io" -}}
+# Staging copy - not for indexing. Becomes "Disallow:" once baseURL is the real domain.
+User-agent: *
+Disallow: /
+{{- else -}}
+User-agent: *
+Disallow:
+
+Sitemap: {{ "sitemap.xml" | absURL }}
+{{- end }}
