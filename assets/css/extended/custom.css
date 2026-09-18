@@ -26,12 +26,11 @@
 
 body { font-family: var(--font-ui); background: var(--theme); color: var(--content); }
 
-/* ---------- header ---------- */
+/* ---------- header: her full magenta bar ---------- */
 .header {
-  background: #fff;
-  border-top: 4px solid var(--brand);
-  border-bottom: 1px solid var(--border);
-  padding: 18px 0;
+  background: var(--brand);
+  color: #fff;
+  padding: 18px 0 20px;
 }
 .header .header-nav {
   max-width: var(--main-width); margin: 0 auto; padding: 0 var(--gap);
@@ -39,12 +38,12 @@ body { font-family: var(--font-ui); background: var(--theme); color: var(--conte
 }
 .header .logo { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; }
 .header .site-title { margin: 0; font-size: 26px; line-height: 1.3; }
-.header .logo a { color: var(--brand); font-size: 26px; font-weight: 700; letter-spacing: .01em; }
-.header .tagline { color: var(--secondary); font-size: 14px; }
+.header .logo a { color: #fff; font-size: 26px; font-weight: 700; letter-spacing: .01em; }
+.header .tagline { color: rgba(255, 255, 255, .82); font-size: 14px; }
 .header .menu { margin-inline-start: auto; }
-.header .menu a { color: var(--primary); font-size: 15px; padding: 10px 2px; }
-.header .menu a:hover { color: var(--brand); }
-.header .menu a span.active { color: var(--brand); border-bottom: 2px solid var(--brand); padding-bottom: 3px; }
+.header .menu a { color: #fff; font-size: 15px; padding: 10px 2px; }
+.header .menu a:hover { color: #fff; opacity: .85; }
+.header .menu a span.active { border-bottom: 2px solid #fff; padding-bottom: 3px; }
 .nav-toggle { display: none; }
 .nav-burger { display: none; }
 .menu-search { display: none; }
@@ -154,16 +153,16 @@ body.list .main > #searchResults { grid-column: 1 / -1; }
     display: flex; flex-direction: column; justify-content: center; gap: 5px;
     margin-inline-start: auto; width: 44px; height: 44px; padding: 8px; cursor: pointer;   /* 44px tap target */
   }
-  .nav-burger span { display: block; height: 2px; background: var(--brand); border-radius: 1px; }
+  .nav-burger span { display: block; height: 2px; background: #fff; border-radius: 1px; }
   .header .menu {
     display: none; flex-basis: 100%; flex-direction: column; align-items: stretch;
-    margin: 10px 0 0; padding: 6px 0 0; border-top: 1px solid var(--border);
+    margin: 10px 0 0; padding: 6px 0 0; border-top: 1px solid rgba(255, 255, 255, .35);
   }
   .header .menu li { padding: 0; }
   .header .menu li a { display: block; padding: 12px 4px; font-size: 16px; }
   .menu-search { display: block; padding: 8px 0 4px !important; }
   .menu-search input {
-    width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 8px; font: inherit; font-size: 16px;
+    width: 100%; padding: 10px 12px; border: 0; border-radius: 8px; font: inherit; font-size: 16px; background: #fff;
   }
   .nav-toggle:checked ~ .menu { display: flex; }
 }
