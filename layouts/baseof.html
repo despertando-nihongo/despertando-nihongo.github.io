@@ -1,0 +1,24 @@
+{{- /* Override of PaperMod's baseof: adds a right-hand sidebar (search + categories) like the old WordPress theme. */ -}}
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="auto" data-theme="light">
+
+<head>
+    {{- partial "head.html" . }}
+</head>
+
+{{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) }}
+<body class="list" id="top">
+{{- else }}
+<body id="top">
+{{- end }}
+    {{ partialCached "header.html" . .Page -}}
+    <div class="page-grid">
+        <main class="main">
+            {{- block "main" . }}{{ end }}
+        </main>
+        {{ partialCached "sidebar.html" . -}}
+    </div>
+    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+</body>
+
+</html>

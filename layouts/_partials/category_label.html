@@ -1,0 +1,6 @@
+{{- /* Magenta category label shown above post titles. */ -}}
+{{- with .GetTerms "categories" }}
+<div class="entry-category">
+  {{- range $i, $c := . }}{{ if $i }}, {{ end }}<a href="{{ $c.RelPermalink }}">{{ $c.LinkTitle }}</a>{{ end }}
+</div>
+{{- end }}

@@ -1,0 +1,18 @@
+{{- if eq .Layout "search" }}
+<script>
+  // Sidebar search submits to /search/?q=... ; hand the query to PaperMod's live search box.
+  // The search index is fetched asynchronously, so retry until results show up.
+  (function () {
+    var q = new URLSearchParams(location.search).get("q");
+    var input = document.getElementById("searchInput");
+    var results = document.getElementById("searchResults");
+    if (!q || !input) return;
+    input.value = q;
+    var tries = 0;
+    var timer = setInterval(function () {
+      input.dispatchEvent(new Event("input", { bubbles: true }));
+      if ((results && results.children.length) || ++tries > 50) clearInterval(timer);
+    }, 200);
+  })();
+</script>
+{{- end }}

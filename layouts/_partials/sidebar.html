@@ -1,0 +1,20 @@
+{{- /* Right sidebar: search box + category list, as on the old site. */ -}}
+<aside class="sidebar">
+    <section class="widget widget-search">
+        <form action="{{ "search/" | relLangURL }}" method="get" role="search">
+            <label for="sidebar-search">検索</label>
+            <div class="search-row">
+                <input id="sidebar-search" type="search" name="q" autocomplete="off">
+                <button type="submit">検索</button>
+            </div>
+        </form>
+    </section>
+    <section class="widget widget-categories">
+        <h3>カテゴリー</h3>
+        <ul>
+            {{- range site.Taxonomies.categories.Alphabetical }}
+            <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+            {{- end }}
+        </ul>
+    </section>
+</aside>

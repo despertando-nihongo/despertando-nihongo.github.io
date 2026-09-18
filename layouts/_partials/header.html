@@ -1,0 +1,21 @@
+{{- /* Magenta site header: title + tagline on the left, menu on the right. */ -}}
+<header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ site.Title }} (Alt + H)">{{ site.Title }}</a>
+            {{- with site.Params.description }}<span class="tagline">{{ . }}</span>{{ end }}
+        </div>
+        {{- $currentPage := . }}
+        <ul id="menu" class="menu">
+            {{- range site.Menus.main }}
+            {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
+            {{- $page_url := $currentPage.Permalink | absLangURL }}
+            <li>
+                <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }}">
+                    <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>{{ .Name }}</span>
+                </a>
+            </li>
+            {{- end }}
+        </ul>
+    </nav>
+</header>

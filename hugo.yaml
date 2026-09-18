@@ -29,13 +29,17 @@ minify:
 
 markup:
   goldmark:
+    parser:
+      attribute:
+        block: true   # lets a paragraph be followed by {.alt} to mark the other speaker
     renderer:
       unsafe: true
 
 params:
   env: production
   description: 光のメッセージ
-  defaultTheme: auto
+  defaultTheme: light
+  disableThemeToggle: true
   ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: true
@@ -44,23 +48,19 @@ params:
   ShowToc: false
   ShowRssButtonInSectionTermList: true
   disableSpecial1stPost: true
-  hideSummary: false
+  hideSummary: true
   comments: false
   mainSections: [posts]
   cover:
     hiddenInList: false
     hiddenInSingle: false
     linkFullImages: false
-  homeInfoParams:
-    Title: デスペルタンド 日本語
-    Content: 光のメッセージ
   fuseOpts:
     isCaseSensitive: false
     threshold: 0.3
     minMatchCharLength: 1
     keys: [title, content, summary]
-  label:
-    text: デスペルタンド 日本語
+  DateFormat: "2006年1月2日"
 
 menu:
   main:
