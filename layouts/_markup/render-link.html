@@ -1,5 +1,5 @@
 {{- /* Root-relative links keep working under a sub-path (see render-image.html). */ -}}
 {{- $u := urls.Parse .Destination -}}
 {{- $href := .Destination -}}
-{{- if and (not $u.IsAbs) (hasPrefix $u.Path "/") }}{{ $href = relURL $href }}{{ end -}}
+{{- if and (not $u.IsAbs) (hasPrefix $u.Path "/") }}{{ $href = relURL (strings.TrimPrefix "/" $href) }}{{ end -}}
 <a href="{{ $href | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $u.IsAbs }} target="_blank" rel="noopener"{{ end }}>{{ .Text }}</a>

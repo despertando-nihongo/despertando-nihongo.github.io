@@ -3,7 +3,7 @@
 {{- $u := urls.Parse .Destination -}}
 {{- $src := $u.String -}}
 {{- if and (not $u.IsAbs) (hasPrefix $u.Path "/") -}}
-  {{- $src = relURL $src -}}
+  {{- $src = relURL (strings.TrimPrefix "/" $src) -}}
 {{- else if not $u.IsAbs -}}
   {{- $path := strings.TrimPrefix "./" $u.Path }}
   {{- with or (.PageInner.Resources.Get $path) (resources.Get $path) -}}
