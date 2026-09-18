@@ -11,6 +11,10 @@
             {{- with site.Params.description }}<span class="tagline">{{ . }}</span>{{ end }}
         </div>
         {{- $currentPage := . }}
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+        <label for="nav-toggle" class="nav-burger" aria-label="メニュー" title="メニュー">
+            <span></span><span></span><span></span>
+        </label>
         <ul id="menu" class="menu">
             {{- range site.Menus.main }}
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}

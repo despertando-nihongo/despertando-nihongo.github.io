@@ -69,7 +69,7 @@ params:
     threshold: 0.3
     minMatchCharLength: 1
     keys: [title, content, summary]
-  DateFormat: "2006年1月2日"
+  DateFormat: "January 2, 2006"
 
 menu:
   main:
