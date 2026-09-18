@@ -12,8 +12,14 @@
     <section class="widget widget-categories">
         <h3>カテゴリー</h3>
         <ul>
-            {{- range site.Taxonomies.categories.Alphabetical }}
-            <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+            {{- /* Most-used categories first; each shows its post count on the right. */ -}}
+            {{- range site.Taxonomies.categories.ByCount }}
+            <li>
+                <a href="{{ .Page.RelPermalink }}">
+                    <span class="term-name">{{ .Page.Title }}</span>
+                    <span class="term-count">{{ .Count }}</span>
+                </a>
+            </li>
             {{- end }}
         </ul>
     </section>
