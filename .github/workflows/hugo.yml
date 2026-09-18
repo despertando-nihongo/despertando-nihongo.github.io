@@ -36,6 +36,21 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
         run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+      # If a `design-preview` branch exists it is published under /preview/ for side-by-side comparison.
+      - name: Check out design-preview branch (if any)
+        id: preview
+        continue-on-error: true
+        uses: actions/checkout@v4
+        with:
+          ref: design-preview
+          path: preview-src
+      - name: Build preview into /preview/
+        if: steps.preview.outcome == 'success'
+        env:
+          HUGO_ENVIRONMENT: production
+        run: |
+          cd preview-src
+          hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/preview/" --destination ../public/preview
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./public

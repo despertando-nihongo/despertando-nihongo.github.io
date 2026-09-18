@@ -1,0 +1,19 @@
+{{- /* Root-relative image paths (/uploads/...) are resolved against the base URL so the site also works
+       under a sub-path such as /preview/. Everything else is PaperMod's default behaviour. */ -}}
+{{- $u := urls.Parse .Destination -}}
+{{- $src := $u.String -}}
+{{- if and (not $u.IsAbs) (hasPrefix $u.Path "/") -}}
+  {{- $src = relURL $src -}}
+{{- else if not $u.IsAbs -}}
+  {{- $path := strings.TrimPrefix "./" $u.Path }}
+  {{- with or (.PageInner.Resources.Get $path) (resources.Get $path) -}}
+    {{- $src = .RelPermalink -}}
+  {{- end -}}
+{{- end -}}
+{{- $attributes := merge .Attributes (dict "alt" .Text "src" $src "title" (.Title | transform.HTMLEscape) "loading" "lazy") -}}
+<img
+  {{- range $k, $v := $attributes -}}
+    {{- if $v -}}
+      {{- printf " %s=%q" $k $v | safeHTMLAttr -}}
+    {{- end -}}
+  {{- end -}}>
