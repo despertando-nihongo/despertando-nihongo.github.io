@@ -4,8 +4,6 @@ date: '2020-04-16T13:25:22Z'
 url: /天使　２０２０年３月２１日　angels-via-ann-albers/
 categories:
 - 天使
-tags:
-- 天使　２０２０年３月２１日　Angels via Ann Albers
 cover:
   image: /uploads/2020/04/Screen-Shot-2020-04-16-at-15.14.58.png
 ---

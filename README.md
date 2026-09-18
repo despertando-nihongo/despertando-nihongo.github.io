@@ -14,7 +14,6 @@ title: マシューからのメッセージ　２０２６年１０月１日
 date: 2026-10-01T09:00:00Z
 categories:
   - マシューからのメッセージ
-tags: []
 cover:
   image: /uploads/2026/10/写真.jpg   # 省略可。画像は static/uploads/ に置く
 ---

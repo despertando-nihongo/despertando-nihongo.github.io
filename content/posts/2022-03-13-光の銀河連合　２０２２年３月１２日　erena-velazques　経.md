@@ -4,8 +4,6 @@ date: '2022-03-13T14:47:26Z'
 url: /光の銀河連合　２０２２年３月１２日　erena-velazques　経/
 categories:
 - 光のメッセージ
-tags:
-- 光の銀河連合　２０２２年３月１２日　Erena Velazques　経由
 cover:
   image: /uploads/2022/03/Screenshot-2022-03-13-at-15.34.50.png
 ---

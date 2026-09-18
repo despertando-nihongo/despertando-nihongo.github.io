@@ -4,8 +4,6 @@ date: '2020-04-28T14:16:20Z'
 url: /天使　２０２０年４月４日　ann-albers-経由/
 categories:
 - 天使
-tags:
-- 天使　２０２０年４月４日　Ann Albers 経由
 cover:
   image: /uploads/2020/04/Screen-Shot-2020-04-28-at-16.13.25.png
 ---

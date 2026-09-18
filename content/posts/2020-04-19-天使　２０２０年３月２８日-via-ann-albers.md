@@ -4,8 +4,6 @@ date: '2020-04-19T18:33:17Z'
 url: /天使　２０２０年３月２８日-via-ann-albers/
 categories:
 - 天使
-tags:
-- 天使　２０２０年３月２８日    via Ann Albers
 cover:
   image: /uploads/2020/04/b.png
 ---
