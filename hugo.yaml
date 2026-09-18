@@ -1,0 +1,82 @@
+# Site configuration — see README.md for how to add posts.
+baseURL: https://despertando-nihongo.github.io/   # change to https://www.despertando-nihongo.com/ when the domain moves
+title: デスペルタンド 日本語
+languageCode: ja
+defaultContentLanguage: ja
+hasCJKLanguage: true
+theme: PaperMod
+timeZone: Asia/Tokyo
+enableRobotsTXT: true
+buildDrafts: false
+
+pagination:
+  pagerSize: 10
+
+# Existing posts carry their old WordPress URL in front matter (`url:`).
+# New posts get /<slug or title>/ automatically.
+permalinks:
+  posts: /:slug/
+
+taxonomies:
+  category: categories
+  tag: tags
+
+outputs:
+  home: [HTML, RSS, JSON]   # JSON feeds the search page
+
+minify:
+  disableXML: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  env: production
+  description: 光のメッセージ
+  defaultTheme: auto
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  ShowToc: false
+  ShowRssButtonInSectionTermList: true
+  disableSpecial1stPost: true
+  hideSummary: false
+  comments: false
+  mainSections: [posts]
+  cover:
+    hiddenInList: false
+    hiddenInSingle: false
+    linkFullImages: false
+  homeInfoParams:
+    Title: デスペルタンド 日本語
+    Content: 光のメッセージ
+  fuseOpts:
+    isCaseSensitive: false
+    threshold: 0.3
+    minMatchCharLength: 1
+    keys: [title, content, summary]
+  label:
+    text: デスペルタンド 日本語
+
+menu:
+  main:
+    - identifier: search
+      name: 検索
+      url: /search/
+      weight: 10
+    - identifier: categories
+      name: カテゴリー
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: タグ
+      url: /tags/
+      weight: 30
+    - identifier: archives
+      name: アーカイブ
+      url: /archives/
+      weight: 40

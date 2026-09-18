@@ -1,0 +1,7 @@
+/* Site-specific tweaks on top of PaperMod. */
+.post-content {
+  line-height: 1.9;
+}
+.post-content p {
+  margin-bottom: 1.4em;
+}
