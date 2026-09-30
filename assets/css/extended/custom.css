@@ -7,6 +7,7 @@
   --brand-soft: #f6e9f8;     /* pale tint of the accent */
   --title: #7a1c9c;          /* post titles: a calmer purple */
   --body-text: #1a1f5c;      /* body copy: her navy, slightly softened for regular weight */
+  --blossom-text: #b42318;
   --alt-text: #7b2d57;       /* the other speaker in dialogue posts */
   --alt-bg: #fbf1f6;
   --theme: #faf8fb;          /* page background: warm off-white */
@@ -142,6 +143,7 @@ body.list .main > #searchResults { grid-column: 1 / -1; }
   font-size: 18px; line-height: 2; font-weight: 400; color: var(--body-text);
 }
 .post-content p { margin-bottom: 1.6em; }
+.post-content p.blossom { color: var(--blossom-text); }
 .post-content p.alt, .post-content li.alt, .post-content h3.alt, .post-content h4.alt, .post-content h5.alt {
   color: var(--alt-text); background: var(--alt-bg); border-left: 3px solid var(--alt-text);
   padding: 10px 16px; border-radius: 0 var(--radius) var(--radius) 0;
