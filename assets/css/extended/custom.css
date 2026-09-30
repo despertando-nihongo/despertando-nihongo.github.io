@@ -148,7 +148,10 @@ body.list .main > #searchResults { grid-column: 1 / -1; }
   font-size: 18px; line-height: 2; font-weight: 400; color: var(--body-text);
 }
 .post-content p { margin-bottom: 1.6em; }
-.post-content p.blossom { color: var(--blossom-text); }
+.post-content p.blossom {
+  color: var(--blossom-text); background: var(--alt-bg); border-left: 3px solid var(--blossom-text);
+  padding: 10px 16px; border-radius: 0 var(--radius) var(--radius) 0;
+}
 .post-content p.alt, .post-content li.alt, .post-content h3.alt, .post-content h4.alt, .post-content h5.alt {
   color: var(--alt-text); background: var(--alt-bg); border-left: 3px solid var(--alt-text);
   padding: 10px 16px; border-radius: 0 var(--radius) var(--radius) 0;
