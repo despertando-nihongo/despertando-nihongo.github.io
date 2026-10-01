@@ -143,6 +143,7 @@ body.list .main > #searchResults { grid-column: 1 / -1; }
 .post-single .post-meta { color: var(--secondary); font-size: 14px; }
 .post-single .post-cover { margin: 0 0 28px; max-width: 420px; }
 .post-single .post-cover img { border-radius: var(--radius); }
+.post-single .entry-cover img[src*="Bildschirmfoto-2023-09-28-um-23.41.21.png"] { width: 100%; max-width: 320px; }
 .post-content {
   max-width: 40em;                 /* about 40 characters per line: comfortable for Japanese */
   font-size: 18px; line-height: 2; font-weight: 400; color: var(--body-text);
