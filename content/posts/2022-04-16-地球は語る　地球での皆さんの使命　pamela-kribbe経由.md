@@ -7,7 +7,6 @@ categories:
 aliases:
 - /tag/地球は語る　地球での皆さんの使命　２０２２年/
 lastmod: '2022-04-16T09:55:23Z'
-description: 私は地球の声です。私のエネルギーが皆さんの脚元を取り巻いているのを感じてください。さあ、歓迎します。筋肉をリラックスさせて自分の身体の中に入ってください。
 cover:
   image: /uploads/2022/04/Bildschirmfoto-2022-04-16-um-11.43.38.png
 ---
