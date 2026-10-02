@@ -48,6 +48,10 @@ params:
   # here (the "xxx" in https://xxx.goatcounter.com) and the script loads on the live site only.
   analytics:
     goatcounter: "despertango-nihongo"
+    # Optional vanity domain for the counting endpoint. Leave empty to use
+    # <goatcounter>.goatcounter.com. Set it only AFTER the CNAME resolves and
+    # GoatCounter has issued the certificate, or counting silently breaks.
+    goatcounter_domain: ""
 
   assets:
     theme_color: "#b401c4"

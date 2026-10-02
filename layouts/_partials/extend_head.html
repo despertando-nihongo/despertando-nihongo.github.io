@@ -43,6 +43,8 @@
        is on common blocklists, so loading it first-party avoids ERR_BLOCKED_BY_CLIENT and
        saves a DNS lookup. Trade-off: it no longer auto-updates, but GoatCounter guarantees
        the /count endpoint stays compatible. Refresh it from https://gc.zgo.at/count.js. */ -}}
-<script data-goatcounter="https://{{ . }}.goatcounter.com/count" async src="{{ "count.js" | absURL }}"></script>
+{{- $endpoint := printf "https://%s.goatcounter.com/count" . }}
+{{- with site.Params.analytics.goatcounter_domain }}{{ $endpoint = printf "https://%s/count" . }}{{ end }}
+<script data-goatcounter="{{ $endpoint }}" async src="{{ "count.js" | absURL }}"></script>
 {{- end }}
 {{- end }}
