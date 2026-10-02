@@ -32,10 +32,13 @@ jobs:
       - uses: actions/checkout@v4
       - id: pages
         uses: actions/configure-pages@v5
+      # baseURL comes from hugo.yaml on purpose. The Pages API reports http:// (not https://)
+      # until "Enforce HTTPS" is on, and reports the github.io host whenever the custom domain
+      # is unset - either one silently poisons canonicals, og:url, favicons and robots.txt.
       - name: Build
         env:
           HUGO_ENVIRONMENT: production
-        run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: hugo --gc --minify
       # If a `design-preview` branch exists it is published under /preview/ for side-by-side comparison.
       - name: Check out design-preview branch (if any)
         id: preview
@@ -50,7 +53,7 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           cd preview-src
-          hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/preview/" --destination ../public/preview
+          hugo --gc --minify --baseURL "https://www.despertando-nihongo.com/preview/" --destination ../public/preview
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./public

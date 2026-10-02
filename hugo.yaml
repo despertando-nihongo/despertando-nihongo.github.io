@@ -1,5 +1,5 @@
 # Site configuration — see README.md for how to add posts.
-baseURL: https://despertando-nihongo.github.io/   # change to https://www.despertando-nihongo.com/ when the domain moves
+baseURL: https://www.despertando-nihongo.com/
 title: デスペルタンド 日本語
 languageCode: ja
 defaultContentLanguage: ja
@@ -44,9 +44,15 @@ markup:
 
 params:
   env: production
+  # Analytics: cookieless, so no consent banner is needed. Put your GoatCounter site code
+  # here (the "xxx" in https://xxx.goatcounter.com) and the script loads on the live site only.
+  analytics:
+    goatcounter: ""
+
   assets:
     theme_color: "#b401c4"
     favicon: favicon.svg
+    safari_pinned_tab: favicon.svg
     favicon16x16: favicon-16x16.png
     favicon32x32: favicon-32x32.png
     apple_touch_icon: apple-touch-icon.png
