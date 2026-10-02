@@ -8,7 +8,7 @@ aliases:
 - /tag/天使　２０２０年４月２５日-via-ann-albers/
 lastmod: '2020-05-12T09:58:38Z'
 cover:
-  image: /uploads/2020/05/Screen-Shot-2020-05-12-at-11.50.08.png
+  image: /wp-content/uploads/2020/05/Screen-Shot-2020-05-12-at-11.50.08.png
 ---
 
 天使　２０２０年４月２５日    via Ann Albers

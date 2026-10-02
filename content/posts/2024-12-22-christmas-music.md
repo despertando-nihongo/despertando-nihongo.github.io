@@ -5,7 +5,7 @@ url: /christmas-music/
 categories:
 - 光のメッセージ
 cover:
-  image: /uploads/2024/12/A.jpg
+  image: /wp-content/uploads/2024/12/A.jpg
 ---
 
 {{< youtube rouxUUuNpU4 >}}

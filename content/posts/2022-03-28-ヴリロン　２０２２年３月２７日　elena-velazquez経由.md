@@ -8,7 +8,7 @@ aliases:
 - /tag/ヴリロン　２０２２年３月２７日　elena-velazquez経由/
 lastmod: '2023-05-16T08:49:18Z'
 cover:
-  image: /uploads/2022/03/Bildschirmfoto-2022-03-27-um-22.28.20.png
+  image: /wp-content/uploads/2022/03/Bildschirmfoto-2022-03-27-um-22.28.20.png
 ---
 
 ヴリロン　２０２２年３月２７日　Elena Velazquez経由

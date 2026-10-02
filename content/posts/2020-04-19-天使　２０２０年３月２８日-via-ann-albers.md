@@ -8,7 +8,7 @@ aliases:
 - /tag/天使　２０２０年３月２８日-via-ann-albers/
 lastmod: '2020-04-28T14:19:00Z'
 cover:
-  image: /uploads/2020/04/b.png
+  image: /wp-content/uploads/2020/04/b.png
 ---
 
 天使　２０２０年３月２８日     Angels via Ann Albers

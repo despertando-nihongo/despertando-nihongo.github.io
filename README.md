@@ -48,7 +48,8 @@ YouTube を埋め込むときは、そのURLだけの行を書きます:
 | 場所 | 内容 |
 |---|---|
 | `content/posts/` | 記事（Markdown、1記事1ファイル） |
-| `static/uploads/` | 画像。`/uploads/...` のURLで参照 |
+| `static/uploads/` | 新しい記事の画像。`/uploads/...` のURLで参照 |
+| `static/wp-content/uploads/` | 旧サイトから移行した画像。旧サイトと同じURLを保つためこの場所です。**移動・削除しないでください** |
 | `hugo.yaml` | サイト設定（タイトル、メニュー、URL） |
 | `themes/PaperMod/` | テーマ（そのままコピーして同梱。変更しない） |
 | `layouts/` | テーマの上書き（マゼンタのヘッダー、右サイドバー、カテゴリー表示） |

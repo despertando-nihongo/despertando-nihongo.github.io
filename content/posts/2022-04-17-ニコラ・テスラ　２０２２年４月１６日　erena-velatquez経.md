@@ -8,7 +8,7 @@ aliases:
 - /tag/ニコラ・テスラ　　　ニコラ・テスラ　２０２２/
 lastmod: '2024-03-24T21:41:19Z'
 cover:
-  image: /uploads/2022/04/３.png
+  image: /wp-content/uploads/2022/04/３.png
 ---
 
 ニコラ・テスラ　２０２２年４月１６日　エレーナ・ベラスケス経由

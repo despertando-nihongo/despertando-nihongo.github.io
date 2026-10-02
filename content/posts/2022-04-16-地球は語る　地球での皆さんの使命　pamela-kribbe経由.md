@@ -8,7 +8,7 @@ aliases:
 - /tag/地球は語る　地球での皆さんの使命　２０２２年/
 lastmod: '2022-04-16T09:55:23Z'
 cover:
-  image: /uploads/2022/04/Bildschirmfoto-2022-04-16-um-11.43.38.png
+  image: /wp-content/uploads/2022/04/Bildschirmfoto-2022-04-16-um-11.43.38.png
 ---
 
 地球は語る　地球での皆さんの使命　Pamela Kribbe経由

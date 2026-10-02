@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Legacy WordPress/Yoast sitemap URL. Kept so Search Console and crawlers
+     that remember it are pointed at the current sitemap instead of a 404. -->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://www.despertando-nihongo.com/sitemap.xml</loc>
+	</sitemap>
+</sitemapindex>

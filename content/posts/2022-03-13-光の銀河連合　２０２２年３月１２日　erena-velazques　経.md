@@ -8,7 +8,7 @@ aliases:
 - /tag/光の銀河連合　２０２２年３月１２日　erena-velazques　経/
 lastmod: '2022-03-29T11:17:27Z'
 cover:
-  image: /uploads/2022/03/Screenshot-2022-03-13-at-15.34.50.png
+  image: /wp-content/uploads/2022/03/Screenshot-2022-03-13-at-15.34.50.png
 ---
 
 光の銀河連合　２０２２年３月１２日　Erena Velazques　経由

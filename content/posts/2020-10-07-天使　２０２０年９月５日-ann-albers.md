@@ -7,7 +7,7 @@ categories:
 aliases:
 - /tag/天使　２０２０年９月５日-ann-albers/
 cover:
-  image: /uploads/2020/10/Screen-Shot-2020-10-07-at-17.49.20.png
+  image: /wp-content/uploads/2020/10/Screen-Shot-2020-10-07-at-17.49.20.png
 ---
 
 天使　２０２０年９月５日 Ann Albers <https://www.visionsofheaven.com/messages-from-the-angels/keep-flowing-love>
