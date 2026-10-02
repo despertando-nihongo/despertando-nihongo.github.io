@@ -7,8 +7,11 @@ categories:
 aliases:
 - /tag/ミラ　プレアデス高等評議会　erena-velazquez　経由　２０/
 lastmod: '2023-05-16T08:50:06Z'
+description: Mira Pleiadian high council March 5, 2022 via Erena Velazquez
 cover:
   image: /wp-content/uploads/2022/03/Screenshot-2022-03-07-at-14.06.01.png
+  width: 524
+  height: 357
 ---
 
 ミラ　プレアデス高等評議会　エレーナ・ベラスケス経由　２０２２年３月５日

@@ -7,8 +7,11 @@ categories:
 aliases:
 - /tag/天使　２０２０年４月４日　ann-albers-経由/
 lastmod: '2020-04-28T15:28:59Z'
+description: 親愛なる友人の皆さん、私達は皆さんをとても愛しています。 呼吸をしてください。少し時間をとって神の腕と天使の腕のなかでリラックスすると想像してください。私達は今皆さんの後ろに立っています。
 cover:
   image: /wp-content/uploads/2020/04/Screen-Shot-2020-04-28-at-16.13.25.png
+  width: 499
+  height: 373
 ---
 
 天使　２０２０年４月４日　Ann Albers 経由

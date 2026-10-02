@@ -1,0 +1,31 @@
+# デスペルタンド 日本語 (Despertando Nihongo)
+
+> 光のメッセージ。海外のチャネリング・メッセージを日本語に翻訳して掲載している個人ブログです。
+> 2019年以降の記事を約690本収録しています。言語は日本語のみ。
+
+このサイトの記事は、原典（英語）のメッセージを日本語に翻訳したものです。
+引用する際は、記事タイトルと日付、および下記の記事URLを示してください。
+
+## カテゴリー（シリーズ別）
+
+- [エリック・クライン　クリスタルの階段](https://www.despertando-nihongo.com/categories/%E3%82%A8%E3%83%AA%E3%83%83%E3%82%AF%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%B3-%E3%82%AF%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%AB%E3%81%AE%E9%9A%8E%E6%AE%B5/)
+- [エレーナ・ベラスケス経由のメッセージ](https://www.despertando-nihongo.com/categories/%E3%82%A8%E3%83%AC%E3%83%BC%E3%83%8A%E3%83%99%E3%83%A9%E3%82%B9%E3%82%B1%E3%82%B9%E7%B5%8C%E7%94%B1%E3%81%AE%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8/)
+- [ナタリー・グラッソン経由のメッセージ](https://www.despertando-nihongo.com/categories/%E3%83%8A%E3%82%BF%E3%83%AA%E3%83%BC%E3%82%B0%E3%83%A9%E3%83%83%E3%82%BD%E3%83%B3%E7%B5%8C%E7%94%B1%E3%81%AE%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8/)
+- [ブロッサム・グッドチャイルド](https://www.despertando-nihongo.com/categories/%E3%83%96%E3%83%AD%E3%83%83%E3%82%B5%E3%83%A0%E3%82%B0%E3%83%83%E3%83%89%E3%83%81%E3%83%A3%E3%82%A4%E3%83%AB%E3%83%89/)
+- [マイク・クインシー](https://www.despertando-nihongo.com/categories/%E3%83%9E%E3%82%A4%E3%82%AF%E3%82%AF%E3%82%A4%E3%83%B3%E3%82%B7%E3%83%BC/)
+- [マシューからのメッセージ　（過去のメッセージ）](https://www.despertando-nihongo.com/categories/%E3%83%9E%E3%82%B7%E3%83%A5%E3%83%BC%E3%81%8B%E3%82%89%E3%81%AE%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8-%E9%81%8E%E5%8E%BB%E3%81%AE%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8/)
+- [マシューからのメッセージ](https://www.despertando-nihongo.com/categories/%E3%83%9E%E3%82%B7%E3%83%A5%E3%83%BC%E3%81%8B%E3%82%89%E3%81%AE%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8/)
+- [光のメッセージ](https://www.despertando-nihongo.com/categories/%E5%85%89%E3%81%AE%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8/)
+- [天使](https://www.despertando-nihongo.com/categories/%E5%A4%A9%E4%BD%BF/)
+
+## 全記事の一覧
+
+- [サイトマップ（全URL）](https://www.despertando-nihongo.com/sitemap.xml)
+- [RSS フィード](https://www.despertando-nihongo.com/feed/)
+- [アーカイブ（年月別）](https://www.despertando-nihongo.com/archives/)
+- [記事検索](https://www.despertando-nihongo.com/search/)
+
+## 補足
+
+- 記事URLは旧WordPressサイトから変更していません。
+- 画像は https://www.despertando-nihongo.com/wp-content/uploads/ 以下にあります。

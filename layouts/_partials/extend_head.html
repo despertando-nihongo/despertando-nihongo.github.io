@@ -7,6 +7,34 @@
 <meta name="robots" content="noindex, nofollow">
 {{- end }}
 
+{{- /* Site-level entity for search and answer engines. PaperMod only emits per-page
+       BlogPosting/Breadcrumb schema, so without this there is nothing describing the
+       publication itself - which is what an AI answer needs in order to cite it. */ -}}
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": {{ (printf "%s#website" site.BaseURL) | jsonify }},
+  "url": {{ site.BaseURL | jsonify }},
+  "name": {{ site.Title | jsonify }},
+  "alternateName": "Despertando Nihongo",
+  "description": {{ site.Params.description | jsonify }},
+  "inLanguage": "ja",
+  "publisher": {
+    "@type": "Organization",
+    "@id": {{ (printf "%s#organization" site.BaseURL) | jsonify }},
+    "name": {{ site.Title | jsonify }},
+    "url": {{ site.BaseURL | jsonify }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ (printf "%s%s" site.BaseURL site.Params.assets.favicon) | jsonify }}
+    }
+  }
+}
+</script>
+{{- end }}
+
 {{- /* Cookieless analytics. Loads only on the production build, so `hugo server` and the
        /preview/ build never report traffic. No-op while the site code is empty. */ -}}
 {{- if hugo.IsProduction }}

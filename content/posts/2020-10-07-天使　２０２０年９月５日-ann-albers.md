@@ -6,8 +6,11 @@ categories:
 - 天使
 aliases:
 - /tag/天使　２０２０年９月５日-ann-albers/
+description: 友の皆さん、私たちは皆さんが大好きです。
 cover:
   image: /wp-content/uploads/2020/10/Screen-Shot-2020-10-07-at-17.49.20.png
+  width: 644
+  height: 432
 ---
 
 天使　２０２０年９月５日 Ann Albers <https://www.visionsofheaven.com/messages-from-the-angels/keep-flowing-love>

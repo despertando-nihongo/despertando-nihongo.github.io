@@ -10,7 +10,7 @@
     {{- $src = .RelPermalink -}}
   {{- end -}}
 {{- end -}}
-{{- $attributes := merge .Attributes (dict "alt" .Text "src" $src "title" (.Title | transform.HTMLEscape) "loading" "lazy") -}}
+{{- $attributes := merge .Attributes (dict "alt" (or .Text .Page.Title) "src" $src "title" (.Title | transform.HTMLEscape) "loading" "lazy") -}}
 <img
   {{- range $k, $v := $attributes -}}
     {{- if $v -}}

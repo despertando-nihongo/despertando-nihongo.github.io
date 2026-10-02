@@ -7,8 +7,11 @@ categories:
 aliases:
 - /tag/天使　２０２０年８月２９日　平和への選択　ann-albers/
 lastmod: '2020-09-13T11:03:46Z'
+description: 親愛なる友の皆さん、私たちは皆さんが大好きです。
 cover:
   image: /wp-content/uploads/2020/09/Screen-Shot-2020-09-09-at-14.16.35.png
+  width: 563
+  height: 422
 ---
 
 天使　２０２０年８月２９日　平和への選択　Ann Albers

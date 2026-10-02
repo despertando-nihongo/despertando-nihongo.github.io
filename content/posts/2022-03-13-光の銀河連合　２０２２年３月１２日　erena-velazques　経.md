@@ -7,8 +7,11 @@ categories:
 aliases:
 - /tag/光の銀河連合　２０２２年３月１２日　erena-velazques　経/
 lastmod: '2022-03-29T11:17:27Z'
+description: Galactic Federation of Light via Erena Velazques March 12 2022
 cover:
   image: /wp-content/uploads/2022/03/Screenshot-2022-03-13-at-15.34.50.png
+  width: 600
+  height: 414
 ---
 
 光の銀河連合　２０２２年３月１２日　Erena Velazques　経由

@@ -15,11 +15,10 @@
       </span>
       {{- end }}
     </h1>
-    {{- if .Description }}
-    <div class="post-description">
-      {{ .Description }}
-    </div>
-    {{- end }}
+    {{- /* .Description is deliberately NOT rendered here. It is metadata only: it feeds the
+           meta description, og:description and JSON-LD. Rendering it duplicated the opening
+           of every post on screen, which is why it was stripped from the posts in the first
+           place - keep it out of the markup rather than out of the front matter. */ -}}
     {{- if not (.Param "hideMeta") }}
     <div class="post-meta">
       {{- partial "post_meta.html" . -}}
